@@ -1,0 +1,59 @@
+.section-header {
+    font-size: 30px;
+    font-weight: 700;
+    color: #0d0d0d;
+    text-transform: uppercase;
+}
+
+@media (max-width: 425px) {
+    .section-header {
+        font-size: 22px;
+    }
+}
+
+.section-header_consult {
+    color: #fff;
+    font-size: 36px;
+    line-height: 1.5;
+}
+@media (max-width: 768px) {
+    .section-header_consult {
+        font-size: 32px;
+        span {
+            font-size: 28px;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .section-header_consult {
+        font-size: 26px;
+        span {
+            font-size: 22px;
+        }
+    }
+}
+@media (max-width: 352px) {
+    .section-header_consult {
+        font-size: 26px;
+        span {
+            display: none;
+        }
+    }
+}
+
+.section-header_promo {
+    color: $promo-color;
+    font-size: 42px;
+    font-weight: 700;
+}
+@media (max-width: 768px) {
+    .section-header_promo {
+        font-size: 38px;
+    }
+}
+@media (max-width: 425px) {
+    .section-header_promo {
+        font-size: 35px;
+    }
+}

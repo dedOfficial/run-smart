@@ -8,9 +8,6 @@
             align-items: center;
             text-align: center;
         }
-        &__header {
-            font-size: 38px;
-        }
         &__subheader {
             font-size: 22px;
         }
@@ -31,6 +28,10 @@
     .promo {
         &__list {
             justify-content: space-around;
+            margin-top: 40px;
+        }
+        &__call-wrap {
+            margin-top: 45px;
         }
     }
 }
@@ -39,6 +40,7 @@
     .promo {
         &__wrap {
             padding-top: 190px;
+            padding-bottom: 50px;
         }
         &__header {
             font-size: 35px;

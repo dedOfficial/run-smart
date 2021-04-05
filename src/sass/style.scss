@@ -7,15 +7,19 @@
 /* Default styles start */
 @import 'base/container';
 @import 'blocks/buttons';
+@import 'blocks/headers';
+@import 'blocks/forms';
 /* Default styles end */
 /* Main styles start*/
 @import 'blocks/header';
 @import 'blocks/promo';
 @import 'blocks/advantage';
+@import 'blocks/consultation';
 /* Main styles end*/
 /* Adaptation styles start */
 @import 'blocks/adapt/header';
 @import 'blocks/adapt/promo';
 @import 'blocks/adapt/advantage';
+@import 'blocks/adapt/consultation';
 /* Adaptation styles end */
 

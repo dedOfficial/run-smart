@@ -1,0 +1,36 @@
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 300px;
+    color: #0d0d0d;
+    font-weight: 500;
+}
+
+.form__title {
+    font-size: 19px;
+}
+
+.form__subtitle {
+    line-height: 1;
+}
+
+.form__input {
+    width: 100%;
+    height: 55px;
+    margin-bottom: 15px;
+    padding: 0 20px;
+    border-radius: 5px;
+    &:nth-child(3) {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    .form {
+        width: 250px;
+    }
+    .form__input {
+        height: 45px;
+    }
+}

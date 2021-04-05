@@ -1,0 +1,30 @@
+@media (max-width: 768px) {
+    .consultation {
+        &__wrap {
+            margin: auto;
+        }
+    }
+}
+@media (max-width: 625px) {
+    .consultation {
+        &__wrap {
+            text-align: center;
+            .form {
+                margin: auto;
+                margin-top: 40px;
+            }
+        }
+    }
+}
+@media (max-width: 425px) {
+    .consultation {
+        min-height: 570px;
+        &__wrap {
+            padding-top: 40px;
+            padding-bottom: 50px;
+        }
+        &__descr {
+            font-size: 17px;
+        }
+    }
+}
