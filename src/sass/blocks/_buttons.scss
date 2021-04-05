@@ -11,3 +11,13 @@
     padding: 10px 20px;
     font-size: 12px;
 }
+
+@media (max-width: 425px) {
+    .btn {
+        font-size: 15px;
+        padding: 15px 30px;
+    }
+    .btn_s {
+        font-size: 12px;
+    }
+}

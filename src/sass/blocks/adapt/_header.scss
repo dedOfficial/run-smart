@@ -15,20 +15,12 @@
         &__contacts {
             margin-top: 15px;
             align-items: center;
-            .btn {
-                font-size: 15px;
-            }
         }
     }
 }
 
 @media (max-width: 274px) {
     .header {
-        &__contacts {
-            .btn {
-                font-size: 14px;
-            }
-        }
         &_phone {
             font-size: 16px;
         }

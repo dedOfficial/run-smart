@@ -26,6 +26,15 @@
         }
     }
 }
+
+@media (max-width: 465px) {
+    .promo {
+        &__list {
+            justify-content: space-around;
+        }
+    }
+}
+
 @media (max-width:425px) {
     .promo {
         &__wrap {
@@ -37,24 +46,28 @@
         &__subheader {
             font-size: 21px;
         }
-        &__list {
-            justify-content: space-around;
-        }
         &__item {
-            max-width: 30%;
+            max-width: 120px;
             &+& {
                 margin-left: 0;
-            }
-        }
-        &__call-wrap {
-            .btn {
-                font-size: 15px;
-                padding: 15px 30px;
             }
         }
         &__link {
             font-size: 15px;
 
+        }
+    }
+}
+
+@media (max-width: 352px) {
+    .promo {
+        &__list {
+            flex-wrap: wrap;
+        }
+        &__item {
+            &:last-child {
+                margin-top: 20px;
+            }
         }
     }
 }
