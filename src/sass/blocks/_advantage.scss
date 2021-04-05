@@ -1,0 +1,27 @@
+.advantage {
+    min-height: 475px;
+    background-color: #F6F6F6;
+    &__wrap {
+        padding: 70px 0 65px 0;
+    }
+    &__list {
+        margin-top: 65px;
+    }
+    &__item {
+        max-width: 270px;
+    }
+    &__text {
+        margin-top: 40px;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 18px;
+    }
+    &__descr {
+        margin-top: 25px;
+        line-height: 1.285;
+        a {
+            color: #ff0000;
+        }
+    }
+}

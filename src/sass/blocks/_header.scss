@@ -1,0 +1,30 @@
+.header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    padding-top: 20px;
+    &__logo {
+        max-width: 251px;
+        img {
+            width: 100%;
+        }
+    }
+    &__official {
+        color: $promo_color;
+        line-height: 1.59;
+        font-size: 12px;
+        span {
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+    &__phone {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__btn {
+        margin-top: 5px;
+    }
+}
