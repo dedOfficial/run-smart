@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+    .feedback {
+        &__item {
+            flex-direction: column;
+        }
+        &__photo {
+            margin-right: 0;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+    }
+}
+@media (max-width: 425px) {
+    .feedback {
+        &__photo {
+            margin-bottom: 15px;
+        }
+        &__name, &__achivement {
+            text-align: center;
+        }
+        &__text {
+            margin-top: 20px;
+            padding: 0 4px;
+            text-align: justify;
+        }
+    }
+}
