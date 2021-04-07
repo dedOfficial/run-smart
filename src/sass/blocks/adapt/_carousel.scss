@@ -1,0 +1,62 @@
+@media (max-width: 1080px) {
+    .carousel {
+        .prev {
+            left: -35px;
+        }
+        .next {
+            right: -35px;
+        }
+    }
+}
+@media (max-width:1024px) {
+    .carousel {
+        .prev {
+            display: none;
+        }
+        .next {
+            display: none;
+        }
+        .tns-nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            button {
+                display: inline-block;
+                margin: 0 15px;
+                padding: 5px;
+                background-color: grey;
+                border-radius: 50%;
+            }
+        }
+        button.tns-nav-active {
+            background-color: $main-color;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .carousel {
+        &__wrap {
+            padding: 45px 0;
+        }
+        &__inner {
+            img {
+                width: 100%;
+            }
+        }
+        .tns-nav {
+            button {
+                margin: 0 10px;
+                padding: 3px;
+            }
+        }
+    }
+}
+@media (max-width: 750px)
+{
+    .carousel {
+        &__inner {
+            max-width: 100%;
+        }
+    }
+}
+

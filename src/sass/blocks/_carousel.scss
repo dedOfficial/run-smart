@@ -1,0 +1,27 @@
+.carousel {
+    &__wrap {
+        position: relative;
+        padding: 75px 0;
+    }
+    &__inner {
+        max-width: 750px;
+        margin: 0 auto;
+    }
+    .prev, .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: transparent;
+    }
+    .prev {
+        left: 0px;
+    }
+    .next {
+        right: 0px;
+    }
+    .tns-item {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
