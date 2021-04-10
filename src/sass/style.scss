@@ -9,6 +9,7 @@
 @import 'blocks/buttons';
 @import 'blocks/headers';
 @import 'blocks/forms';
+@import 'base/animations';
 /* Default styles end */
 /* Main styles start*/
 @import 'blocks/header';
@@ -20,24 +21,7 @@
 @import 'blocks/feedback';
 @import 'blocks/footer';
 @import 'blocks/modal';
-
-.pageup {
-    display: none;
-    color: $main-color;
-    position: fixed;
-    width: 40px;
-    height: 40px;
-    bottom: 40px;
-    right: 40px;
-    &:hover {
-        color: $main-color;
-        text-decoration: none;
-    }
-    i {
-        font-size: 40px;
-    }
-}
-
+@import 'blocks/pageup';
 /* Main styles end*/
 /* Adaptation styles start */
 @import 'blocks/adapt/header';
@@ -49,14 +33,5 @@
 @import 'blocks/adapt/feedback';
 @import 'blocks/adapt/footer';
 @import 'blocks/adapt/modal';
-
-@media (max-width: 768px) {
-    .pageup {
-        width: 40px;
-        height: 40px;
-        bottom: 25px;
-        right: 25px;
-    }
-}
 /* Adaptation styles end */
 

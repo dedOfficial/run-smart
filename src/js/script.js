@@ -124,6 +124,6 @@ $(document).ready(function(){
             $('.pageup').fadeOut();
         }
     });
-    
+    new WOW().init();
 });
 
