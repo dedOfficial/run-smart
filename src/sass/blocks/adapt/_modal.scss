@@ -1,0 +1,37 @@
+@media (max-width: 768px) {
+    .modal {
+        &__close {
+            top: -45px;
+            right: 0px;
+            line-height: 1;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .modal {
+        width: 330px;
+    }
+}
+
+@media (max-width: 350px) {
+    .modal {
+        width: 95%;
+        padding: 0;
+        min-height: 380px;
+        &__title {
+            margin: 0 10px;
+            margin-top: 30px;
+
+        }
+        &__descr {
+            margin: 0 15px;
+            margin-top: 15px;
+        }
+        .form {
+            margin: auto;
+            margin-top: 25px;
+            margin-bottom: 30px;
+        }
+    }
+}

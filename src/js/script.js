@@ -49,5 +49,20 @@ $(document).ready(function(){
             });
         });
     }
+
+    // Modal
+    $('[data-modal="consultation"]').on('click', () => {
+        $('.overlay, #consultation').fadeIn();
+    });
+    $('.modal__close').on('click', function() {
+        $('.overlay, #consultation, #fhanks, #order').fadeOut();
+    });
+
+    $('.btn_s-plus').each(function(index) {
+        $(this).on('click', function() {
+            $('#order .modal__descr').text($('.catalog-item__subtitle').eq(index).text());
+            $('.overlay, #order').fadeIn();
+        });
+    });
 });
 
