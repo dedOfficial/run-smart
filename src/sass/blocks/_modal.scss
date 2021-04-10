@@ -37,6 +37,18 @@
     &_mini {
         min-height: 140px;
     }
+
+    .error {
+        border: 1px solid red;
+        margin-bottom: 20px;
+    }
+    .valid {
+        margin-bottom: 15px;
+    }
+    label.error {
+        border: none;
+        margin-bottom: 15px;
+    }
 }
 
 #consultation, #order, #thanks {

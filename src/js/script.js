@@ -64,5 +64,41 @@ $(document).ready(function(){
             $('.overlay, #order').fadeIn();
         });
     });
+
+
+    function validate(selector) {
+        $(selector).validate({
+            rules: {
+                name: {
+                    required: true,
+                    minlength: 2
+                },
+                phone: "required",
+                email: {
+                    required: true,
+                    email: true
+                },
+            },
+            messages: {
+                name: {
+                    required: "Пожалуйста, введите ваше имя",
+                    minlength: jQuery.validator.format("Ваше имя не может быть короче {0} символов!")
+                },
+                phone: {
+                    required: "Пожалуйста, введите ваш номер телефона",
+                },
+                email: {
+                    required: "Пожалуйста, введите ваш e-mail",
+                    email: "Ваш e-mail адрес должен иметь вид: name@domain.com",
+                }
+            },
+        });
+    }
+
+    validate('.consultation__wrap .form');
+    validate('#consultation .form');
+    validate('#order .form');
+
+    $('input[name="phone"]').mask('+7 (999) 999-99-99');
 });
 

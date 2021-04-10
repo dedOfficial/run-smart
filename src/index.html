@@ -119,9 +119,9 @@
                 <p class="consultation__descr d-block">Просто заполните форму заявки <br>и мы перезвоним вам в течении
                     10 минут</p>
                 <form action="#" class="form">
-                    <input name="name" required type="text" class="form__input d-block" placeholder="Ваше имя">
-                    <input name="phone" required type="tel" class="form__input d-block" placeholder="Ваш телефон">
-                    <input name="email" required type="email" class="form__input d-block" placeholder="Ваш e-mail">
+                    <input name="name" type="text" class="form__input d-block" placeholder="Ваше имя">
+                    <input name="phone" class="form__input d-block" placeholder="Ваш телефон">
+                    <input name="email" type="email" class="form__input d-block" placeholder="Ваш e-mail">
                     <button class="btn">Заказать консультацию</button>
                 </form>
                 <!-- /.form -->
@@ -532,9 +532,9 @@
             <h6 class="modal__title txt-center">Просто заполните форму заявки</h6>
             <div class="modal__descr txt-center">и мы перезвоним вам в течении 10 минут</div>
             <form action="#" class="form form_modal">
-                <input name="name" required type="text" class="form__input d-block" placeholder="Ваше имя">
-                <input name="phone" required type="tel" class="form__input d-block" placeholder="Ваш телефон">
-                <input name="email" required type="email" class="form__input d-block" placeholder="Ваш e-mail">
+                <input name="name" type="text" class="form__input d-block" placeholder="Ваше имя">
+                <input name="phone" class="form__input d-block" placeholder="Ваш телефон">
+                <input name="email" type="email" class="form__input d-block" placeholder="Ваш e-mail">
                 <button class="btn">Заказать консультацию</button>
             </form>
             <!-- /.form -->
@@ -545,9 +545,9 @@
             <h6 class="modal__title txt-center">Ваш заказ:</h6>
             <div class="modal__descr txt-center">Пульсометр Polar FT1</div>
             <form action="#" class="form form_modal">
-                <input name="name" required type="text" class="form__input d-block" placeholder="Ваше имя">
-                <input name="phone" required type="tel" class="form__input d-block" placeholder="Ваш телефон">
-                <input name="email" required type="email" class="form__input d-block" placeholder="Ваш e-mail">
+                <input name="name" type="text" minlength="2" class="form__input d-block" placeholder="Ваше имя">
+                <input name="phone" class="form__input d-block" placeholder="Ваш телефон">
+                <input name="email" type="email" class="form__input d-block" placeholder="Ваш e-mail">
                 <button class="btn">Купить</button>
             </form>
             <!-- /.form -->
@@ -564,6 +564,8 @@
     <!-- /.overlay -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 

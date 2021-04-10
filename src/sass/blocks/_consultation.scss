@@ -12,4 +12,17 @@
     .form {
         margin-top: 40px;
     }
+    .error {
+        border: 1px solid red;
+        margin-bottom: 20px;
+    }
+    .valid {
+        margin-bottom: 15px;
+    }
+    label.error {
+        border: none;
+        text-align: left;
+        margin-bottom: 15px;
+        color: #fff;
+    }
 }
