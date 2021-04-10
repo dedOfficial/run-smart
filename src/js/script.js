@@ -22,6 +22,7 @@ const slider = tns({
     }
 });
 
+
 document.querySelector('.prev').addEventListener('click', () =>{
     slider.goTo('prev');
 });
